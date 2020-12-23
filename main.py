@@ -10,3 +10,7 @@ async def hello_world():
 @app.get("/worldhello")
 async def world_hello():
     return {"message": "World Hello"}
+
+@app.get("/test")
+async def testing():
+    return {"message": "testing"}
